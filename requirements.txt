@@ -14,18 +14,23 @@ astunparse==1.6.3
 async-lru==2.0.5
 attrs==25.3.0
 babel==2.17.0
+backoff==2.2.1
+bcrypt==4.3.0
 beautifulsoup4==4.13.4
 bleach==6.2.0
 blinker==1.9.0
 boto3==1.38.12
 botocore==1.38.12
+build==1.2.2.post1
 cachetools==5.5.2
 certifi==2025.1.31
 cffi==1.17.1
 charset-normalizer==3.4.1
+chromadb==1.0.15
 click==8.1.8
 cloudpickle==3.1.1
 colorama==0.4.6
+coloredlogs==15.0.1
 comm==0.2.2
 contourpy==1.3.2
 cycler==0.12.1
@@ -38,6 +43,7 @@ defusedxml==0.7.1
 dill==0.3.8
 distro==1.9.0
 docker==7.1.0
+durationpy==0.10
 executing==2.2.0
 fastapi==0.115.14
 fastjsonschema==2.21.1
@@ -53,6 +59,7 @@ gitdb==4.0.12
 GitPython==3.1.44
 google-auth==2.40.3
 google-pasta==0.2.0
+googleapis-common-protos==1.70.0
 graphene==3.4.3
 graphql-core==3.2.6
 graphql-relay==3.2.0
@@ -61,11 +68,14 @@ grpcio==1.71.0
 h11==0.14.0
 h5py==3.13.0
 httpcore==1.0.8
+httptools==0.6.4
 httpx==0.28.1
 httpx-sse==0.4.1
 huggingface-hub==0.31.1
+humanfriendly==10.0
 idna==3.10
 importlib_metadata==8.7.0
+importlib_resources==6.5.2
 ipykernel==6.29.5
 ipython==9.1.0
 ipython_pygments_lexers==1.1.1
@@ -97,6 +107,7 @@ jupyterlab_server==2.27.3
 jupyterlab_widgets==3.0.14
 keras==3.9.0
 kiwisolver==1.4.8
+kubernetes==33.1.0
 langchain==0.3.26
 langchain-community==0.3.27
 langchain-core==0.3.69
@@ -112,13 +123,10 @@ matplotlib==3.10.1
 matplotlib-inline==0.1.7
 mdurl==0.1.2
 mistune==3.1.3
-<<<<<<< HEAD
 ml-dtypes==0.4.1
 mlflow==3.1.1
 mlflow-skinny==3.1.1
-=======
-ml-dtypes==0.3.2
->>>>>>> 5a064d67b85959072fc354cc77c6e9e74ff0194b
+mmh3==5.1.0
 mpmath==1.3.0
 multidict==6.4.3
 multiprocess==0.70.16
@@ -134,13 +142,15 @@ nltk==3.9.1
 notebook==7.4.0
 notebook_shim==0.2.4
 numpy==1.26.4
-<<<<<<< HEAD
+oauthlib==3.3.1
+onnxruntime==1.22.1
 openai==1.97.0
-opentelemetry-api==1.34.1
-opentelemetry-sdk==1.34.1
-opentelemetry-semantic-conventions==0.55b1
-=======
->>>>>>> 5a064d67b85959072fc354cc77c6e9e74ff0194b
+opentelemetry-api==1.35.0
+opentelemetry-exporter-otlp-proto-common==1.35.0
+opentelemetry-exporter-otlp-proto-grpc==1.35.0
+opentelemetry-proto==1.35.0
+opentelemetry-sdk==1.35.0
+opentelemetry-semantic-conventions==0.56b0
 opt_einsum==3.4.0
 optree==0.15.0
 orjson==3.11.0
@@ -151,19 +161,18 @@ pandocfilters==1.5.1
 parso==0.8.4
 pillow==11.2.1
 platformdirs==4.3.7
+posthog==5.4.0
 prometheus_client==0.21.1
 prompt_toolkit==3.0.51
-<<<<<<< HEAD
 propcache==0.3.1
-=======
->>>>>>> 5a064d67b85959072fc354cc77c6e9e74ff0194b
-protobuf==4.25.7
+protobuf==5.29.5
 psutil==7.0.0
 pure_eval==0.2.3
 pyarrow==19.0.1
 pyarrow-hotfix==0.7
 pyasn1==0.6.1
 pyasn1_modules==0.4.2
+pybase64==1.4.1
 pycparser==2.22
 pydantic==2.11.7
 pydantic-settings==2.10.1
@@ -173,6 +182,9 @@ pydub==0.25.1
 Pygments==2.19.1
 pyparsing==3.2.3
 pypdf==5.8.0
+PyPika==0.48.9
+pyproject_hooks==1.2.0
+pyreadline3==3.5.4
 python-dateutil==2.9.0.post0
 python-dotenv==1.1.1
 python-json-logger==3.3.0
@@ -184,6 +196,7 @@ pyzmq==26.4.0
 referencing==0.36.2
 regex==2024.11.6
 requests==2.32.3
+requests-oauthlib==2.0.0
 requests-toolbelt==1.0.0
 rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
@@ -197,6 +210,7 @@ scikit-learn==1.4.2
 scipy==1.15.2
 seaborn==0.13.2
 Send2Trash==1.8.3
+shellingham==1.5.4
 six==1.17.0
 smmap==5.0.2
 sniffio==1.3.1
@@ -210,21 +224,15 @@ svgling==0.5.0
 svgwrite==1.4.3
 sympy==1.13.1
 tenacity==9.1.2
-<<<<<<< HEAD
 tensorboard==2.18.0
 tensorboard-data-server==0.7.2
 tensorflow==2.18.0
-=======
-tensorboard==2.16.2
-tensorboard-data-server==0.7.2
-tensorflow==2.16.1
-tensorflow-intel==2.16.1
->>>>>>> 5a064d67b85959072fc354cc77c6e9e74ff0194b
 tensorflow-io-gcs-filesystem==0.31.0
 tensorflow_intel==2.18.0
 termcolor==3.0.1
 terminado==0.18.1
 threadpoolctl==3.6.0
+tiktoken==0.9.0
 tinycss2==1.4.0
 tokenizers==0.19.1
 toml==0.10.2
@@ -236,6 +244,7 @@ tornado==6.4.2
 tqdm==4.67.1
 traitlets==5.14.3
 transformers==4.41.0
+typer==0.16.0
 types-python-dateutil==2.9.0.20241206
 typing-inspect==0.9.0
 typing-inspection==0.4.1
@@ -246,10 +255,12 @@ urllib3==2.4.0
 uvicorn==0.35.0
 waitress==3.0.2
 watchdog==6.0.0
+watchfiles==1.1.0
 wcwidth==0.2.13
 webcolors==24.11.1
 webencodings==0.5.1
 websocket-client==1.8.0
+websockets==15.0.1
 Werkzeug==3.1.3
 widgetsnbextension==4.0.14
 wrapt==1.17.2
